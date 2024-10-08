@@ -1,0 +1,50 @@
+/* Estilos generales */
+main {
+  min-height: calc(100vh - 160px);
+}
+
+/* Estilos para el título de la tarjeta */
+.card-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* Estilos para el texto de la tarjeta */
+.card-text {
+  font-size: 0.9rem;
+}
+
+/* Margen superior para el contenedor de resultados */
+#resultados {
+  margin-top: 20px;
+}
+
+/* Estilos para la tarjeta */
+.card {
+  height: 400px; /* Altura fija de la tarjeta */
+  display: flex;
+  flex-direction: column;
+}
+
+/* Imagen en la parte superior de la tarjeta */
+.card-img-top {
+  height: 200px; /* Ajuste de la altura de la imagen */
+  object-fit: cover; /* Mantiene el aspecto de la imagen */
+}
+
+/* Contenido del cuerpo de la tarjeta */
+.card-body {
+  max-height: 200px; /* Altura fija para el contenido */
+  overflow-y: auto; /* Habilitar el desplazamiento vertical si el contenido excede */
+  padding: 10px;
+}
+
+/* Pie de la tarjeta */
+.card-footer {
+  text-align: center;
+  font-size: 0.9rem;
+  background-color: #f8f9fa;
+  padding: 10px 0;
+  margin-top: auto; /* Empuja el footer hacia el final de la tarjeta */
+}
